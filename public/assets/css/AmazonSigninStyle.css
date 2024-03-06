@@ -1,0 +1,35 @@
+.center_box{}
+.logo{
+    width: 100px !important;
+    height: 60px;
+    margin-left: 43%;
+}
+.logo_image{}
+.privacy_notice{}
+.email_label
+{
+    font-weight: 700;
+    font-size: 14px;
+}
+.agree_para
+{
+    font-size: 12px;
+}
+.need_help
+{
+    font-size: 14px;
+}
+.new_account
+{
+    font-size: 13px;
+}
+.card_footer
+{
+    margin-top: 50px;
+}
+.card_footer a{
+    text-decoration: none;
+    margin-right: 19px;
+    font-size: 13px;
+}
+

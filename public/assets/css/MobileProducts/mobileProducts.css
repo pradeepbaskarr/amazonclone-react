@@ -1,0 +1,42 @@
+/* ///////////////////////////////////////////////// */
+
+body{
+    box-sizing: border-box;
+}
+
+.product_name{}
+.price{
+    color: cadetblue;
+    font-size: 21px;
+    font-weight: 700;
+}
+.rating{
+    color: chocolate;
+    font-size: 15px;
+    font-style: italic;
+}
+.stock{
+    color: darkblue;
+    font-weight: 700;
+    font-size: larger;
+    font-family: none;
+}
+.discount_percentage{
+    letter-spacing: 1px;
+    font-style: italic;
+    font-family: math;
+    color: black;
+    font-size: 15px;
+}
+.product_image_description{
+    font-size: 13px;
+    font-family: inherit;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.wishlistIcon
+{
+    position: relative;
+    top: -190px;
+    left: 250px;
+}

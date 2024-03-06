@@ -1,0 +1,134 @@
+body
+{
+    background: #EAEDED!important;
+    /* background: #fff; */
+}
+
+/* ///////////////////////////------ NAVBAR THIRD -------- //////////////////// */
+
+.mensCollection_navbar_third a
+{
+    color: black !important;
+    font-size: 13px;
+    /* letter-spacing: 1px; */
+    width: 148px;
+    text-align: center;
+}
+.mensCollection_navbar_third a:hover
+{
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-color: greenyellow;
+    text-decoration-thickness: 3px;
+}
+
+
+/* //////////////////  ------ LEFT SECTION ------////////// */
+
+
+
+.left_section{
+    background: azure;
+}
+.left_section .checkbox{}
+.left_section a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    display: block;
+}
+.left_section .category_content{}
+.left_section .men_items{
+    margin-left: 10px;
+}
+.left_section .amazon_prime{}
+.left_section .Brands a{
+    display: inline-block;
+}
+.left_section .new_arrival{
+    margin-top: 15px;
+}
+.left_section .price{
+    margin-top: 15px;
+}
+.left_section .deals_discount{
+    margin-top: 15px;
+}
+.left_section .discount{
+    margin-top: 15px;
+}
+.left_section .seller{
+    margin-top: 15px;
+}
+.left_section .seller a{
+    display: inline-flex;
+}
+.left_section .availability{
+    margin-top: 15px;
+}
+.left_section .availability a{
+    display: inline-block;
+}
+
+
+
+
+/* <!-- //////////////////////////////  ------- HOVER MENS ITEMS --------- /////////////////////// --> */
+.mens_items
+{
+    position: absolute;
+    top: 43px;
+    display: none;
+    z-index: 2;
+}
+.mens_items h6 a
+{
+    font-size: 15px;
+}
+.mens_items a
+{
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-transform: capitalize;
+    font-size: 12px;
+    margin-top: 3px;
+    text-align: left !important;
+}
+
+.men_link:hover .mens_items
+{
+    display: block;
+}
+
+/* <!-- //////////////////////////////  ------- HOVER WOMENS ITEMS --------- /////////////////////// --> */
+.womens_items
+{
+    position: absolute;
+    top: 43px;
+    display: none;
+    z-index: 2;
+}
+.womens_items h6 a
+{
+    font-size: 15px;
+}
+.womens_items a
+{
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-transform: capitalize;
+    font-size: 12px;
+    margin-top: 3px;
+    text-align: left !important;
+}
+
+.women_link:hover .womens_items
+{
+    display: block;
+}
+/* .navbar_third .women_link:hover + .womens_items
+{
+    
+} */
